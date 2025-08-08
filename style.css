@@ -19,3 +19,60 @@ body{
     max-width: 1200px;
     padding: 0 20px; 
 }
+.logo a {
+    font-family: "Calistoga";
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo a span{
+    color: #fe6a0f;
+}
+
+    /* HEADER */
+
+header .container{
+    display: flex;
+    align-items: center;
+    padding: 45px 100px;
+    gap: 50p;
+}
+
+header nav{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+header nav .leftside{
+    display: flex;
+    flex: 1;
+}
+
+header nav li{
+    margin: 0 30px;
+}
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav li a:hover{
+    color: #999;
+}
+
+header nav .button{
+    display: block;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+header nav .button:hover{
+    color: #999;
+    border-color: #fe6a0f;
+}
+ 
